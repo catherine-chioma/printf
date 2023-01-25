@@ -112,7 +112,7 @@ int print_S(va_list ap, params_t *params)
 
 	if ((int)(!str))
 		return (_puts(NULL_STRING));
-		for (; *str; str++)
+	for (; *str; str++)
 	{
 		if ((*str > 0 && *str < 32) || *str >= 127)
 		{
