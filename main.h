@@ -59,7 +59,7 @@ typedef struct parameters
  *  struct specifier - Struct token
  *
  *  @specifier: format token
- *   @f: The function associated
+ *   @f:The function associated
  */
 typedef struct specifier
 {
